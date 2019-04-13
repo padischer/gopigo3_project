@@ -4,9 +4,8 @@ from easygopigo3 import EasyGoPiGo3
 
 car = EasyGoPiGo3()
 
-car.forward()
-time.sleep(5)
 car.stop()
-car.backward()
-time.sleep(5)
+car.forward(50)
+car.stop()
+car.backward(50)
 car.stop()
