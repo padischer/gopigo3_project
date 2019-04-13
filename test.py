@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 
 import time
 from easygopigo3 import EasyGoPiGo3
