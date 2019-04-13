@@ -6,7 +6,7 @@ car = EasyGoPiGo3()
 
 car.forward()
 time.sleep(5)
-car.back()
+car.stop()
+car.backward()
 time.sleep(5)
-
 car.stop()
