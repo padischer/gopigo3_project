@@ -1,6 +1,7 @@
 
 import time
 from easygopigo3 import EasyGoPiGo3
+from di_sensors import line_follower
 
 car = EasyGoPiGo3()
 
