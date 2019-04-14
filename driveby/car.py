@@ -18,7 +18,7 @@ class car:
             sys.exit()
         logging.info("start driving")
         self.gpg.forward()
-        while len(instructions):
+        while True:
             logging.debug(my_linefollower.read_position())
             if my_linefollower.read_position() == 'black':
                 logging.debug("black detected")
@@ -29,7 +29,7 @@ class car:
                 logging.debug(my_linefollower.read_position())
                 if my_linefollower.read_position() in ['center', "left", "right"]:
                     next_instruction = instructions[0]
-                    del instructions[0]
+                    
                     logging.debug("executing next instruction")
                     logging.info(next_instruction)
                     if next_instruction is "left":
@@ -38,12 +38,14 @@ class car:
                        self.gpg.turn_degrees(90)
                        logging.debug("going forward")
                     self.gpg.forward()
-                
+                    del instructions[0]                
 
 
                 if my_linefollower.read_position() is "white":
                     self.gpg.stop()
                     self.gpg.turn_degrees(180)
+                    time.sleep(1.5)
+                    return True
 
             if my_linefollower.read_position() == 'center':
                 self.gpg.forward()

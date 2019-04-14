@@ -31,3 +31,4 @@ for waypoint in waypoints:
         logging.info(instructions)
         car.drive(instructions)
     previouswaypoint = waypoint
+
