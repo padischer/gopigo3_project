@@ -1,0 +1,379 @@
+warning: CRLF will be replaced by LF in map.md.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in map.py.
+The file will have its original line endings in your working directory
+[1mdiff --git a/map.md b/map.md[m
+[1mindex 75cf2c0..f86d184 100644[m
+[1m--- a/map.md[m
+[1m+++ b/map.md[m
+[36m@@ -1,85 +1,85 @@[m
+ #!/usr/bin/env python[m
+ [m
+ pints = {[m
+[31m-	"heinz": {[m
+[31m-		"sven": ["forward", "forward"],[m
+[31m-		"milo": ["right", "right"],[m
+[31m-		"claudio": ["forward", "right", "left"],[m
+[31m-		"start": ["forward", "right", "forward"],[m
+[31m-		"chruch": ["left"],[m
+[31m-		"cinema": ["forward", "left"],[m
+[31m-		"lake": ["right", "forward"][m
+[31m-	}[m
+[32m+[m[32m    "heinz": {[m
+[32m+[m[32m        "sven": ["forward", "forward"],[m
+[32m+[m[32m        "milo": ["right", "right"],[m
+[32m+[m[32m        "claudio": ["forward", "right", "left"],[m
+[32m+[m[32m        "start": ["forward", "right", "forward"],[m
+[32m+[m[32m        "chruch": ["left"],[m
+[32m+[m[32m        "cinema": ["forward", "left"],[m
+[32m+[m[32m        "lake": ["right", "forward"][m
+[32m+[m[32m    }[m
+ [m
+[31m-	"milo": {[m
+[31m-		"sven": ["forward", "left", "right"],[m
+[31m-		"claudio": ["forward", "forward"],[m
+[31m-		"heinz": ["left", "left"],[m
+[31m-		"start": ["forward", "right"],[m
+[31m-		"church": ["left", "forward"],[m
+[31m-		"cinema": ["forward", "left", "forward"],[m
+[31m-		"lake": ["right"][m
+[31m-	}[m
+[32m+[m[32m    "milo": {[m
+[32m+[m[32m        "sven": ["forward", "left", "right"],[m
+[32m+[m[32m        "claudio": ["forward", "forward"],[m
+[32m+[m[32m        "heinz": ["left", "left"],[m
+[32m+[m[32m        "start": ["forward", "right"],[m
+[32m+[m[32m        "church": ["left", "forward"],[m
+[32m+[m[32m        "cinema": ["forward", "left", "forward"],[m
+[32m+[m[32m        "lake": ["right"][m
+[32m+[m[32m    }[m
+ [m
+[31m-	"sven": {[m
+[31m-		"milo": ["forward", "left", "right"],[m
+[31m-		"claudio": ["left", "left"],[m
+[31m-		"heinz": ["forward", "forward"],[m
+[31m-		"start": ["left", "forward"],[m
+[31m-		"church": ["forward", "right"],[m
+[31m-		"cinema": ["right"],[m
+[31m-		"lake": ["forward", "left", "forward"][m
+[31m-	}[m
+[32m+[m[32m    "sven": {[m
+[32m+[m[32m        "milo": ["forward", "left", "right"],[m
+[32m+[m[32m        "claudio": ["left", "left"],[m
+[32m+[m[32m        "heinz": ["forward", "forward"],[m
+[32m+[m[32m        "start": ["left", "forward"],[m
+[32m+[m[32m        "church": ["forward", "right"],[m
+[32m+[m[32m        "cinema": ["right"],[m
+[32m+[m[32m        "lake": ["forward", "left", "forward"][m
+[32m+[m[32m    }[m
+ [m
+[31m-	"claudio": {[m
+[31m-		"sven": ["right", "right"],[m
+[31m-		"milo": ["forward", "forward"],[m
+[31m-		"heinz": ["forward", "right", "left"],[m
+[31m-		"start": ["left"],[m
+[31m-		"church": ["forward", "right", "forward"],[m
+[31m-		"cinema": ["right", "forward"],[m
+[31m-		"lake": ["forward", "left"][m
+[31m-	}[m
+[32m+[m[32m    "claudio": {[m
+[32m+[m[32m        "sven": ["right", "right"],[m
+[32m+[m[32m        "milo": ["forward", "forward"],[m
+[32m+[m[32m        "heinz": ["forward", "right", "left"],[m
+[32m+[m[32m        "start": ["left"],[m
+[32m+[m[32m        "church": ["forward", "right", "forward"],[m
+[32m+[m[32m        "cinema": ["right", "forward"],[m
+[32m+[m[32m        "lake": ["forward", "left"][m
+[32m+[m[32m    }[m
+ [m
+[31m-	"start": {[m
+[31m-		"sven": ["forward", "right"],[m
+[31m-		"milo": ["left", "forward"],[m
+[31m-		"claudio": ["right"],[m
+[31m-		"heinz": ["froward", "left", "forward"],[m
+[31m-		"church": ["forward", "left", "right"],[m
+[31m-		"cinema": ["forard", "forward"],[m
+[31m-		"lake": ["left", "left"][m
+[31m-	}[m
+[32m+[m[32m    "start": {[m
+[32m+[m[32m        "sven": ["forward", "right"],[m
+[32m+[m[32m        "milo": ["left", "forward"],[m
+[32m+[m[32m        "claudio": ["right"],[m
+[32m+[m[32m        "heinz": ["froward", "left", "forward"],[m
+[32m+[m[32m        "church": ["forward", "left", "right"],[m
+[32m+[m[32m        "cinema": ["forard", "forward"],[m
+[32m+[m[32m        "lake": ["left", "left"][m
+[32m+[m[32m    }[m
+ [m
+[31m-	"church": {[m
+[31m-		"sven": ["left", "forward"],[m
+[31m-		"milo": ["forward", "right"],[m
+[31m-		"claudio": ["forward", "left", "forward"],[m
+[31m-		"heinz": ["right"],[m
+[31m-		"start": ["forward", "left", "right"],[m
+[31m-		"cinema": ["left", "left"],[m
+[31m-		"lake": ["forward", "forward"][m
+[31m-	}[m
+[32m+[m[32m    "church": {[m
+[32m+[m[32m        "sven": ["left", "forward"],[m
+[32m+[m[32m        "milo": ["forward", "right"],[m
+[32m+[m[32m        "claudio": ["forward", "left", "forward"],[m
+[32m+[m[32m        "heinz": ["right"],[m
+[32m+[m[32m        "start": ["forward", "left", "right"],[m
+[32m+[m[32m        "cinema": ["left", "left"],[m
+[32m+[m[32m        "lake": ["forward", "forward"][m
+[32m+[m[32m    }[m
+ [m
+[31m-	"cinema": {[m
+[31m-		"sven": ["left"],[m
+[31m-		"milo": ["forward", "right", "forward"],[m
+[31m-		"claudio": ["forward", "left"],[m
+[31m-		"heinz": ["right", "forward"],[m
+[31m-		"start": ["forward", "forward"],[m
+[31m-		"church": ["right", "right"],[m
+[31m-		"lake": ["forward", "right", "left"][m
+[31m-	}[m
+[32m+[m[32m    "cinema": {[m
+[32m+[m[32m        "sven": ["left"],[m
+[32m+[m[32m        "milo": ["forward", "right", "forward"],[m
+[32m+[m[32m        "claudio": ["forward", "left"],[m
+[32m+[m[32m        "heinz": ["right", "forward"],[m
+[32m+[m[32m        "start": ["forward", "forward"],[m
+[32m+[m[32m        "church": ["right", "right"],[m
+[32m+[m[32m        "lake": ["forward", "right", "left"][m
+[32m+[m[32m    }[m
+ [m
+[31m-	"lake": {[m
+[31m-		"sven": ["forward", "right", "forward"],[m
+[31m-		"milo": ["left"],[m
+[31m-		"claudio": ["right", "forward"],[m
+[31m-		"heinz": ["forward", "left"],[m
+[31m-		"start": ["right", "right"],[m
+[31m-		"church": ["forward", "forward"],[m
+[31m-		"cinema": ["forward", "right", "left"][m
+[31m-	}[m
+[32m+[m[32m    "lake": {[m
+[32m+[m[32m        "sven": ["forward", "right", "forward"],[m
+[32m+[m[32m        "milo": ["left"],[m
+[32m+[m[32m        "claudio": ["right", "forward"],[m
+[32m+[m[32m        "heinz": ["forward", "left"],[m
+[32m+[m[32m        "start": ["right", "right"],[m
+[32m+[m[32m        "church": ["forward", "forward"],[m
+[32m+[m[32m        "cinema": ["forward", "right", "left"][m
+[32m+[m[32m    }[m
+ }[m
+ [m
+ [m
+[1mdiff --git a/map.py b/map.py[m
+[1mindex f51a8f8..9c67fc0 100644[m
+[1m--- a/map.py[m
+[1m+++ b/map.py[m
+[36m@@ -2,190 +2,32 @@[m
+ import easygopigo3 as easy[m
+ import time[m
+ import sys[m
+[32m+[m[32mimport logging[m
+[32m+[m[32mfrom driveby import mapguide[m
+[32m+[m[32mfrom pprint import pprint[m[41m [m
+[32m+[m[32mfrom driveby import car[m
+ [m
+[32m+[m[32m#tr '\r' ' ' < map.py > map2.py[m
+ [m
+[31m-sensor_readings = None[m
+[31m-[m
+[31m-gpg = easy.EasyGoPiGo3()[m
+[31m-[m
+[31m-[m
+[31m-print('go on')[m
+[31m-try:[m
+[31m-    my_linefollower = gpg.init_line_follower()[m
+[31m-    time.sleep(0.1)[m
+[31m-except:[m
+[31m-    print('Line Follower not responding')[m
+[31m-    time.sleep(0.2)[m
+[31m-    exit()[m
+[31m-[m
+[31m-[m
+[31m-print("Still running")[m
+[31m-print(my_linefollower.read_position())[m
+[31m-[m
+[31m-#while True:[m
+[31m-#    print(my_linefollower.read_position())[m
+[31m-#    print(not  my_linefollower.read_position() == "white")[m
+[31m-[m
+[31m-#    time.sleep(1)[m
+[31m-[m
+[31m-#sys.exit(0)[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-# start[m
+[31m-gpg.forward()[m
+[31m-while not  my_linefollower.read_position() == "black":[m
+[31m-[m
+[31m-    print(my_linefollower.read_position())[m
+[31m-[m
+[31m-    if my_linefollower.read_position() == 'center':[m
+[31m-        gpg.forward()[m
+[31m-    if my_linefollower.read_position() == 'left':[m
+[31m-        gpg.left()[m
+[31m-        gpg.left()[m
+[31m-        gpg.left()[m
+[31m-    if my_linefollower.read_position() == 'right':[m
+[31m-        gpg.right()[m
+[31m-        gpg.right()[m
+[31m-        gpg.right()[m
+[31m-[m
+[31m-[m
+[31m-points = {[m
+[31m-	"heinz": {[m
+[31m-		"sven": ["forward", "forward"],[m
+[31m-		"milo": ["right", "right"],[m
+[31m-		"claudio": ["forward", "right", "left"],[m
+[31m-		"start": ["forward", "right", "forward"],[m
+[31m-		"chruch": ["left"],[m
+[31m-		"cinema": ["forward", "left"],[m
+[31m-		"lake": ["right", "forward"][m
+[31m-	},[m
+[31m-[m
+[31m-	"milo": {[m
+[31m-		"sven": ["forward", "left", "right"],[m
+[31m-		"claudio": ["forward", "forward"],[m
+[31m-		"heinz": ["left", "left"],[m
+[31m-		"start": ["forward", "right"],[m
+[31m-		"church": ["left", "forward"],[m
+[31m-		"cinema": ["forward", "left", "forward"],[m
+[31m-		"lake": ["right"][m
+[31m-	},[m
+[31m-[m
+[31m-	"sven": {[m
+[31m-		"milo": ["forward", "left", "right"],[m
+[31m-		"claudio": ["left", "left"],[m
+[31m-		"heinz": ["forward", "forward"],[m
+[31m-		"start": ["left", "forward"],[m
+[31m-		"church": ["forward", "right"],[m
+[31m-		"cinema": ["right"],[m
+[31m-		"lake": ["forward", "left", "forward"][m
+[31m-	},[m
+[31m-[m
+[31m-	"claudio": {[m
+[31m-		"sven": ["right", "right"],[m
+[31m-		"milo": ["forward", "forward"],[m
+[31m-		"heinz": ["forward", "right", "left"],[m
+[31m-		"start": ["left"],[m
+[31m-		"church": ["forward", "right", "forward"],[m
+[31m-		"cinema": ["right", "forward"],[m
+[31m-		"lake": ["forward", "left"][m
+[31m-	},[m
+[31m-[m
+[31m-	"start": {[m
+[31m-		"sven": ["forward", "right"],[m
+[31m-		"milo": ["left", "forward"],[m
+[31m-		"claudio": ["right"],[m
+[31m-		"heinz": ["froward", "left", "forward"],[m
+[31m-		"church": ["forward", "left", "right"],[m
+[31m-		"cinema": ["forard", "forward"],[m
+[31m-		"lake": ["left", "left"][m
+[31m-	},[m
+[31m-[m
+[31m-	"church": {[m
+[31m-		"sven": ["left", "forward"],[m
+[31m-		"milo": ["forward", "right"],[m
+[31m-		"claudio": ["forward", "left", "forward"],[m
+[31m-		"heinz": ["right"],[m
+[31m-		"start": ["forward", "left", "right"],[m
+[31m-		"cinema": ["left", "left"],[m
+[31m-		"lake": ["forward", "forward"][m
+[31m-	},[m
+[31m-[m
+[31m-	"cinema": {[m
+[31m-		"sven": ["left"],[m
+[31m-		"milo": ["forward", "right", "forward"],[m
+[31m-		"claudio": ["forward", "left"],[m
+[31m-		"heinz": ["right", "forward"],[m
+[31m-		"start": ["forward", "forward"],[m
+[31m-		"church": ["right", "right"],[m
+[31m-		"lake": ["forward", "right", "left"][m
+[31m-	},[m
+[31m-[m
+[31m-	"lake": {[m
+[31m-		"sven": ["forward", "right", "forward"],[m
+[31m-		"milo": ["left"],[m
+[31m-		"claudio": ["right", "forward"],[m
+[31m-		"heinz": ["forward", "left"],[m
+[31m-		"start": ["right", "right"],[m
+[31m-		"church": ["forward", "forward"],[m
+[31m-		"cinema": ["forward", "right", "left"][m
+[31m-	}[m
+[31m-}[m
+ [m
+[31m-import sys [m
+[31m-from pprint import pprint [m
+[32m+[m[32mlogging.basicConfig(filename='driveby.log',level=logging.DEBUG)[m
+ [m
+[32m+[m[32msensor_readings = None[m
+ [m
+ [m
+ waypoints = sys.argv[m
+ del waypoints[0][m
+ [m
+[31m-previouswaypoint = None[m
+[31m-for waypoint in waypoints:[m
+[31m-	if previouswaypoint is not None:[m
+[31m-		print("fahre von %s zu %s" % (previouswaypoint, waypoint))[m
+[31m-		instructions = points[previouswaypoint][waypoint][m
+[31m-		for instruction in instructions:[m
+[31m-			if instruction is "forward":[m
+[31m-				print("car.forward()")[m
+[31m-			if instruction is "left":[m
+[31m-				print("car.spin_left(90)")[m
+[31m-			if instruction is "right":[m
+[31m-				print("car.spin_right(90)")[m
+[31m-[m
+[31m-[m
+[31m-	previouswaypoint = waypoint[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-gpg.forward()[m
+[31m-while not  my_linefollower.read_position() == "black":[m
+[31m-[m
+[31m-    print(my_linefollower.read_position())[m
+[31m-[m
+[31m-    if my_linefollower.read_position() == 'black':[m
+[31m-        gpg.drive_cm(6)[m
+[31m-        if my_linefollower.read_position() == 'center':[m
+[31m-        	[m
+ [m
+[32m+[m[32mgpg = easy.EasyGoPiGo3()[m
+[32m+[m[32mmapguide = mapguide.mapguide()[m
+[32m+[m[32mcar = car.car()[m
+ [m
+[31m-    if my_linefollower.read_position() == 'left':[m
+[31m-        gpg.left()[m
+[31m-        gpg.left()[m
+[31m-        gpg.left()[m
+[31m-    if my_linefollower.read_position() == 'right':[m
+[31m-        gpg.right()[m
+[31m-        gpg.right()[m
+[31m-        gpg.right()[m
+[32m+[m[32mpreviouswaypoint = None[m
+[32m+[m[32mfor waypoint in waypoints:[m
+[32m+[m[32m    if previouswaypoint is not None:[m
+[32m+[m[32m        logging.info("fahre von %s zu %s" % (previouswaypoint, waypoint))[m
+[32m+[m[32m        instructions = mapguide.guide(previouswaypoint, waypoint)[m
+[32m+[m[32m        logging.info(instructions)[m
+[32m+[m[32m        car.drive(instructions)[m
+[32m+[m[32m    previouswaypoint = waypoint[m
