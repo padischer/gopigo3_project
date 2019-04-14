@@ -16,14 +16,18 @@ class car:
             logging.error('Line Follower not responding')
             time.sleep(0.2)
             sys.exit()
+
         logging.info("start driving")
         self.gpg.forward()
+
         while True:
             logging.debug(my_linefollower.read_position())
             if my_linefollower.read_position() == 'black':
                 logging.debug("black detected")
                 self.gpg.stop()
+                time.sleep(0.2)
                 self.gpg.drive_cm(5)
+                time.sleep(0.2)
 
 
                 logging.debug(my_linefollower.read_position())
@@ -32,19 +36,22 @@ class car:
                     
                     logging.debug("executing next instruction")
                     logging.info(next_instruction)
+
                     if next_instruction is "left":
                        self.gpg.turn_degrees(270)
                     if next_instruction is "right":
                        self.gpg.turn_degrees(90)
                        logging.debug("going forward")
+                    time.sleep(0.2)
                     self.gpg.forward()
                     del instructions[0]                
 
 
                 if my_linefollower.read_position() is "white":
                     self.gpg.stop()
+                    time.sleep(0.2)
                     self.gpg.turn_degrees(180)
-                    time.sleep(1.5)
+                    time.sleep(1)
                     return True
 
             if my_linefollower.read_position() == 'center':
@@ -52,9 +59,6 @@ class car:
             if my_linefollower.read_position() == 'left':
                 self.gpg.left()
                 self.gpg.left()
-#                self.gpg.left()
             if my_linefollower.read_position() == 'right':
                 self.gpg.right()
                 self.gpg.right()
- #               self.gpg.right()
- 
