@@ -8,7 +8,7 @@ class mapguide:
             "milo": ["right", "right"],
             "claudio": ["forward", "right", "left"],
             "start": ["forward", "right", "forward"],
-            "chruch": ["left"],
+            "church": ["left"],
             "cinema": ["forward", "left"],
             "lake": ["right", "forward"]
         },
