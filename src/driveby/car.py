@@ -38,7 +38,7 @@ class car:
                     logging.info(next_instruction)
 
                     if next_instruction is "left":
-                       self.gpg.turn_degrees(270)
+                       self.gpg.turn_degrees(-90)
                     if next_instruction is "right":
                        self.gpg.turn_degrees(90)
                        logging.debug("going forward")
